@@ -6,13 +6,68 @@
         <description>Recent content on KONG3</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-CN</language>
-        <lastBuildDate>Tue, 11 Jan 2022 14:07:10 +0800</lastBuildDate><atom:link href="https://yahao333.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>First</title>
-        <link>https://yahao333.github.io/p/first/</link>
-        <pubDate>Tue, 11 Jan 2022 14:07:10 +0800</pubDate>
+        <lastBuildDate>Tue, 11 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://yahao333.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>HandyControl</title>
+        <link>https://yahao333.github.io/p/handycontrol/</link>
+        <pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://yahao333.github.io/p/first/</guid>
-        <description></description>
+        <guid>https://yahao333.github.io/p/handycontrol/</guid>
+        <description>&lt;h2 id=&#34;要求&#34;&gt;要求&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;.net&lt;/code&gt;&amp;gt;=4.0&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;OS&lt;/code&gt;&amp;gt;=win7&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;IDE&lt;/code&gt;:vs2019&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;C#&lt;/code&gt;:8.0&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;下载&#34;&gt;下载&lt;/h2&gt;
+&lt;p&gt;通过&lt;code&gt;Nuget&lt;/code&gt;或者Github下载&lt;/p&gt;
+&lt;h3 id=&#34;nuget&#34;&gt;Nuget&lt;/h3&gt;
+&lt;p&gt;Nuget上是编译好的发布版本，地址为：HandyControl-Nuget&lt;/p&gt;
+&lt;h3 id=&#34;github&#34;&gt;Github&lt;/h3&gt;
+&lt;p&gt;Github上是最新的源代码，地址为：&lt;a class=&#34;link&#34; href=&#34;https://github.com/HandyOrg/HandyControl&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;HandyControl-Github&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;快速开始&#34;&gt;快速开始&lt;/h2&gt;
+&lt;h3 id=&#34;第一步&#34;&gt;第一步&lt;/h3&gt;
+&lt;p&gt;下载源码或者以Nuget的方式引用控件库。&lt;/p&gt;
+&lt;h3 id=&#34;第二步&#34;&gt;第二步&lt;/h3&gt;
+&lt;p&gt;在App.xaml中添加以下代码:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-xml&#34; data-lang=&#34;xml&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;Application.Resources&amp;gt;&lt;/span&gt;
+    &lt;span class=&#34;nt&#34;&gt;&amp;lt;ResourceDictionary&amp;gt;&lt;/span&gt;
+        &lt;span class=&#34;nt&#34;&gt;&amp;lt;ResourceDictionary.MergedDictionaries&amp;gt;&lt;/span&gt;
+            &lt;span class=&#34;nt&#34;&gt;&amp;lt;ResourceDictionary&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;Source=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;pack://application:,,,/HandyControl;component/Themes/SkinDefault.xaml&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
+            &lt;span class=&#34;nt&#34;&gt;&amp;lt;ResourceDictionary&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;Source=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;pack://application:,,,/HandyControl;component/Themes/Theme.xaml&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
+        &lt;span class=&#34;nt&#34;&gt;&amp;lt;/ResourceDictionary.MergedDictionaries&amp;gt;&lt;/span&gt;
+    &lt;span class=&#34;nt&#34;&gt;&amp;lt;/ResourceDictionary&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;/Application.Resources&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;第三步&#34;&gt;第三步&lt;/h3&gt;
+&lt;p&gt;添加命名空间：&lt;code&gt;xmlns:hc=&amp;quot;https://handyorg.github.io/handycontrol&amp;quot;&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;示例&#34;&gt;示例&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-xml&#34; data-lang=&#34;xml&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;hc:Badge&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;Value=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;12&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;Text=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;New&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;BadgeMargin=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;0,-14,-20,0&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;Height=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;30&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&#34;nt&#34;&gt;&amp;lt;Button&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;Content=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;默认样式&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;/hc:Badge&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;hc:Badge&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;Value=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;12&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;BadgeMargin=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;0,-14,-20,0&amp;#34;&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;Height=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;30&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&#34;nt&#34;&gt;&amp;lt;Button&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;Content=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;默认样式&amp;#34;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;span class=&#34;nt&#34;&gt;&amp;lt;/hc:Badge&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;效果&#34;&gt;效果&lt;/h3&gt;
+&lt;p&gt;&lt;figure 
+	
+		class=&#34;gallery-image&#34; 
+		style=&#34;
+			flex-grow: 350; 
+			flex-basis: 840px&#34;
+	&gt;
+	&lt;a href=&#34;https://yahao333.github.io/p/handycontrol/xg.png&#34; data-size=&#34;700x200&#34;&gt;
+		&lt;img src=&#34;https://yahao333.github.io/p/handycontrol/xg.png&#34;
+			width=&#34;700&#34;
+			height=&#34;200&#34;
+			srcset=&#34;https://yahao333.github.io/p/handycontrol/xg_hudce44b4908f335cf9bc3e5886fb8b2a9_17721_480x0_resize_box_3.png 480w, https://yahao333.github.io/p/handycontrol/xg_hudce44b4908f335cf9bc3e5886fb8b2a9_17721_1024x0_resize_box_3.png 1024w&#34;
+			loading=&#34;lazy&#34;
+			alt=&#34;效果&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;效果&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;</description>
         </item>
         <item>
         <title>Chinese Test</title>
