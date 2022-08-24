@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    
+    
+    <title>KONG3 | HandyControl</title>
+</head><body><div id="nav-border" class="container">
+    <nav id="nav" class="nav justify-content-center">
+    <a class="nav-link" href="/">Home</a>
+    <a class="nav-link" href="/projects">Projects</a>
+    <a class="nav-link" href="/blog">Blog</a>
+    <a class="nav-link" href="/skills">Skills</a>
+    <a class="nav-link" href="/contact">Contact</a>
+    </nav>
+</div>
+
+<div id="content">
+<h2 id="要求">要求</h2>
+<ul>
+<li><code>.net</code>&gt;=4.0</li>
+<li><code>OS</code>&gt;=win7</li>
+<li><code>IDE</code>:vs2019</li>
+<li><code>C#</code>:8.0</li>
+</ul>
+<h2 id="下载">下载</h2>
+<p>通过<code>Nuget</code>或者Github下载</p>
+<h3 id="nuget">Nuget</h3>
+<p>Nuget上是编译好的发布版本，地址为：HandyControl-Nuget</p>
+<h3 id="github">Github</h3>
+<p>Github上是最新的源代码，地址为：<a href="https://github.com/HandyOrg/HandyControl">HandyControl-Github</a></p>
+<h2 id="快速开始">快速开始</h2>
+<h3 id="第一步">第一步</h3>
+<p>下载源码或者以Nuget的方式引用控件库。</p>
+<h3 id="第二步">第二步</h3>
+<p>在App.xaml中添加以下代码:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml"><span style="color:#f92672">&lt;Application.Resources&gt;</span>
+    <span style="color:#f92672">&lt;ResourceDictionary&gt;</span>
+        <span style="color:#f92672">&lt;ResourceDictionary.MergedDictionaries&gt;</span>
+            <span style="color:#f92672">&lt;ResourceDictionary</span> <span style="color:#a6e22e">Source=</span><span style="color:#e6db74">&#34;pack://application:,,,/HandyControl;component/Themes/SkinDefault.xaml&#34;</span><span style="color:#f92672">/&gt;</span>
+            <span style="color:#f92672">&lt;ResourceDictionary</span> <span style="color:#a6e22e">Source=</span><span style="color:#e6db74">&#34;pack://application:,,,/HandyControl;component/Themes/Theme.xaml&#34;</span><span style="color:#f92672">/&gt;</span>
+        <span style="color:#f92672">&lt;/ResourceDictionary.MergedDictionaries&gt;</span>
+    <span style="color:#f92672">&lt;/ResourceDictionary&gt;</span>
+<span style="color:#f92672">&lt;/Application.Resources&gt;</span>
+</code></pre></div><h3 id="第三步">第三步</h3>
+<p>添加命名空间：<code>xmlns:hc=&quot;https://handyorg.github.io/handycontrol&quot;</code></p>
+<h3 id="示例">示例</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml"><span style="color:#f92672">&lt;hc:Badge</span> <span style="color:#a6e22e">Value=</span><span style="color:#e6db74">&#34;12&#34;</span> <span style="color:#a6e22e">Text=</span><span style="color:#e6db74">&#34;New&#34;</span> <span style="color:#a6e22e">BadgeMargin=</span><span style="color:#e6db74">&#34;0,-14,-20,0&#34;</span> <span style="color:#a6e22e">Height=</span><span style="color:#e6db74">&#34;30&#34;</span><span style="color:#f92672">&gt;</span>
+    <span style="color:#f92672">&lt;Button</span> <span style="color:#a6e22e">Content=</span><span style="color:#e6db74">&#34;默认样式&#34;</span><span style="color:#f92672">/&gt;</span>
+<span style="color:#f92672">&lt;/hc:Badge&gt;</span>
+<span style="color:#f92672">&lt;hc:Badge</span> <span style="color:#a6e22e">Value=</span><span style="color:#e6db74">&#34;12&#34;</span> <span style="color:#a6e22e">BadgeMargin=</span><span style="color:#e6db74">&#34;0,-14,-20,0&#34;</span> <span style="color:#a6e22e">Height=</span><span style="color:#e6db74">&#34;30&#34;</span><span style="color:#f92672">&gt;</span>
+    <span style="color:#f92672">&lt;Button</span> <span style="color:#a6e22e">Content=</span><span style="color:#e6db74">&#34;默认样式&#34;</span><span style="color:#f92672">/&gt;</span>
+<span style="color:#f92672">&lt;/hc:Badge&gt;</span>
+</code></pre></div><h3 id="效果">效果</h3>
+<p><img src="xg.png" alt="效果"></p>
+
+        </div><p class="footer text-center">Copyright (c) 2022 Yang Hao</p><script src="/js/feather.min.js"></script>
+<script>
+  feather.replace()
+</script></body>
+</html>

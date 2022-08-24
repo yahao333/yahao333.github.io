@@ -6,44 +6,44 @@
     <description>Recent content in Pages on KONG3</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 28 May 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://yahao333.github.io/page/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://yahao333.github.io/page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://yahao333.github.io/page/about/</link>
+      <pubDate>Tue, 23 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://yahao333.github.io/page/about/</guid>
+      <description>Email: lenzener@gmail.com
+I&amp;rsquo;m generally open to freelance work and other requests. (see Skills for a half-resume)
+I will not make a game for you for free or do your homework. Otherwise, don&amp;rsquo;t be afraid to ask!</description>
+    </item>
+    
     <item>
       <title>Archives</title>
-      <link>https://yahao333.github.io/archives/</link>
+      <link>https://yahao333.github.io/page/archives/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://yahao333.github.io/archives/</guid>
+      <guid>https://yahao333.github.io/page/archives/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>About</title>
-      <link>https://yahao333.github.io/about/</link>
-      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://yahao333.github.io/about/</guid>
-      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
-Hugo makes use of a variety of open source projects including:
- https://github.</description>
-    </item>
-    
-    <item>
       <title>Links</title>
-      <link>https://yahao333.github.io/links/</link>
+      <link>https://yahao333.github.io/page/links/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yahao333.github.io/links/</guid>
+      <guid>https://yahao333.github.io/page/links/</guid>
       <description>To use this feature, add links section to frontmatter.
 This page&amp;rsquo;s frontmatter:
-links:- title:GitHubdescription:GitHub is the world&amp;#39;s largest software development platform.website:https://github.comimage:https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png- title:TypeScriptdescription:TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.website:https://www.typescriptlang.orgimage:ts-logo-128.jpgimage field accepts both local and external images.</description>
+links: - title: GitHub description: GitHub is the world&amp;#39;s largest software development platform. website: https://github.com image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png - title: TypeScript description: TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. website: https://www.typescriptlang.org image: ts-logo-128.jpg image field accepts both local and external images.</description>
     </item>
     
     <item>
       <title>Search</title>
-      <link>https://yahao333.github.io/search/</link>
+      <link>https://yahao333.github.io/page/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yahao333.github.io/search/</guid>
+      <guid>https://yahao333.github.io/page/search/</guid>
       <description></description>
     </item>
     
