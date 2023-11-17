@@ -2,23 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://yahao333.github.io/skill/</loc>
-    <lastmod>2023-11-17T15:47:36+08:00</lastmod>
-  </url><url>
-    <loc>https://yahao333.github.io/about/</loc>
-    <lastmod>2023-11-17T15:46:46+08:00</lastmod>
-  </url><url>
-    <loc>https://yahao333.github.io/post/first/</loc>
-    <lastmod>2023-11-17T15:45:17+08:00</lastmod>
-  </url><url>
-    <loc>https://yahao333.github.io/post/</loc>
-    <lastmod>2023-11-17T15:45:17+08:00</lastmod>
-  </url><url>
-    <loc>https://yahao333.github.io/</loc>
-    <lastmod>2023-11-17T15:45:17+08:00</lastmod>
-  </url><url>
     <loc>https://yahao333.github.io/categories/</loc>
   </url><url>
     <loc>https://yahao333.github.io/tags/</loc>
+  </url><url>
+    <loc>https://yahao333.github.io/</loc>
   </url>
 </urlset>
