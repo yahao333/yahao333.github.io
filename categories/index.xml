@@ -5,6 +5,16 @@
     <link>https://yahao333.github.io/categories/</link>
     <description>Recent content in Categories on yahao333 Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn </language><atom:link href="https://yahao333.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-cn </language>
+    <lastBuildDate>Fri, 17 Nov 2023 19:25:07 +0800</lastBuildDate><atom:link href="https://yahao333.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>version control</title>
+      <link>https://yahao333.github.io/categories/version-control/</link>
+      <pubDate>Fri, 17 Nov 2023 19:25:07 +0800</pubDate>
+      
+      <guid>https://yahao333.github.io/categories/version-control/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
